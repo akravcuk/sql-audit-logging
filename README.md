@@ -38,3 +38,5 @@ https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-datab
 https://learn.microsoft.com/en-us/azure/mysql/flexible-server/tutorial-configure-audit#set-up-diagnostics
 
 https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-monitor-mysql
+
+https://learn.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings?WT.mc_id=Portal-Microsoft_Azure_Monitoring#destinations
