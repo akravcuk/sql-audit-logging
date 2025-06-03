@@ -22,6 +22,14 @@ audit_log_include_users = (must be empty)
 audit_log_exclude_users = azure_superuser
 ```
 
+5. KQL queries for Log Analytics workspace
+```kql
+AzureDiagnostics 
+| where event_class_s has "LOG"
+| project TimeGenerated, user_s, sql_text_s
+| order by TimeGenerated
+```
+
 ## Security Baseline
 https://learn.microsoft.com/en-us/security/benchmark/azure/baselines/azure-database-for-mysql-flexible-server-security-baseline?wt.mc_id=knowledgesearch_inproduct_copilot-in-azure#lt-4-enable-logging-for-security-investigation
 
